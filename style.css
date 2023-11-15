@@ -54,7 +54,10 @@ nav a:hover {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   padding: 1rem 2rem;
+  gap: 3rem;
 }
 
 aside {
@@ -76,7 +79,8 @@ h2 {
   text-align: center;
 }
 
-h2 span {
+h2 span,
+.feedback h4 {
   --tw-text-opacity: 1;
   color: rgb(255 159 26 / var(--tw-text-opacity));
 }
@@ -85,6 +89,10 @@ p {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.feedback h4 {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -102,5 +110,9 @@ p {
 
   h2 {
     font-size: 2.5rem;
+  }
+
+  .feedback h4 {
+    font-size: 2rem;
   }
 }
