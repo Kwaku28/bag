@@ -54,7 +54,10 @@ nav a:hover {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   padding: 1rem 2rem;
+  gap: 3rem;
 }
 
 aside {
@@ -76,7 +79,9 @@ h2 {
   text-align: center;
 }
 
-h2 span {
+h2 span,
+.feedback h4,
+.thank_you p a {
   --tw-text-opacity: 1;
   color: rgb(255 159 26 / var(--tw-text-opacity));
 }
@@ -85,6 +90,43 @@ p {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.feedback h4 {
+  text-align: center;
+}
+
+.thank_you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  gap: 15px;
+  padding: 0 1rem;
+}
+
+.thank_you h1 {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.extra_feedback {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.thank_you p a {
+  text-decoration: none;
+}
+
+#results {
+  padding: 1rem;
+  background: #eee;
+  border-radius: 12px;
+  color: #8b8888;
+  font-size: 1.1em;
+  font-family: var(--primary-font);
 }
 
 @media (min-width: 768px) {
@@ -102,5 +144,15 @@ p {
 
   h2 {
     font-size: 2.5rem;
+  }
+
+  .feedback h4 {
+    font-size: 2rem;
+  }
+
+  .thank_you h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-left: 0;
   }
 }
