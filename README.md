@@ -12,7 +12,7 @@ This is a one page application that shows the about page and a form to leave a f
 
 ## Demo
 
-Insert gif or link to demo
+[Live link](https://bag-lovat.vercel.app/)
 
 ## Features
 
