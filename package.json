@@ -1,0 +1,19 @@
+{
+  "name": "bag",
+  "version": "1.0.0",
+  "description": "This is a one page application that shows the about page and a form to leave a feedback.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lawrence",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
